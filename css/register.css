@@ -1,0 +1,85 @@
+.bg-register{
+    background-image: url("./../asset/register-bg.jpg");
+    background-size: 100%;
+    height: 610px;
+    padding-top: 140px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.box{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 0px 0px 0px 50px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form-field{
+    width: 100%;
+    border: 0;
+    margin: 5px 0px 5px 0px;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1rem;
+    color:black;
+    padding: 7px 0;
+    background: transparent;
+    
+}
+
+.radio{
+    margin: 10px 0px 10px 0px;
+}
+
+.dob{
+    margin: 10px 0px 10px 0px;
+}
+
+.submit{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+	outline: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.submit:hover{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+	outline: 0;
+    padding: 0;
+    background-color: #222222;
+    cursor: pointer;
+}
+
+.login:hover{
+    color: blue;
+}
+
+/* responsive */
+
+@media screen and (max-width: 800px){
+    .bg-register{
+        background-image: none;
+    }
+
+    .form-field{
+        width: 100%;
+    }
+
+    .box{
+        width: 300px;
+        position: relative;
+        top: -10px;
+    }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="script.js"></script>  
+</head>
+<body>
+    <!-- navbar 1 -->
+
+    <div class="navbar1">
+        <div class="menu">
+            <a href="register.html" class="list">Register</a>
+            <a href="index.html" class="list">Login </a>
+            <a href="aboutUs.html" class="list">About Us</a>
+        </div>
+    </div>
+
+    <!-- navbar 2 -->
+    <div class="navbar2">
+        <!-- logo -->
+        <a href="index.html"><img src="./asset/logo-baru.png" alt="Logo" class="logo"></a>
+        
+        <div class="menu2">
+            <ul>
+                <li><a class="list2">&#9776;</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="index.html" class="sub-list" >Home</a></li>
+                            <li><a href="register.html" class="sub-list" >Register</a></li>
+                            
+                            <li><label for="Category" class="sub-list">Category</label>
+                                <div class="sub-menu2">
+                                    <ul>
+                                        <li><a href="./category/men.html" class="sub-list un">Men</a></li>
+                                        <li><a href="./category/women.html" class="sub-list un">Woman</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="index.html" class="list2">Home</a></li>
+                <li><label for="Category" class="list2">Category</label>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="./category/men.html" class="sub-list un" >Men</a></li>
+                            <li><a href="./category/women.html" class="sub-list un" >Women</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Register Form -->
+    
+
+    <div class="bg-register">
+        <div class="box">
+            <h1>Register</h1>
+            
+            <form action="./index.html" onsubmit="validateForm(event)">
+                <!-- text -->
+                <input type="text" name="name" id="name" placeholder="Name" class="form-field" required><br><br>
+                
+                <!-- email -->
+                <input type="email" name="email" id="email" placeholder="Email" class="form-field" required><br><br>
+                
+                <!-- password -->
+                <input type="password" name="password" id="password" placeholder="Password" class="form-field" required> <br><br>
+                
+                <!-- gender -->
+                <label for="gender" class="label" required>Gender</label>
+                <div class="radio" required>
+                    <input type="radio" value="male" id="male" name="gender" required>
+                    <label for="male" >Male</label>
+                    <input type="radio" value="female" id="female" name="gender" required>
+                    <label for="female">Female</label>
+                </div>
+            
+                <br>
+                <!-- date of birth-->
+                <label class="label">Date of birth</label>
+                <br>
+                <input type="date" class="dob" required> <br><br><br>
+                
+                <!-- Term and Condition (CheckBox) -->
+                <input type="checkbox" name="checkbox" value="check" class="check" required> I have read and agree to the Terms and Conditions and Privacy Policy <br><br>
+                
+                <!-- submit -->
+                <input type="submit" value="submit" class="submit"> <br> <br>
+
+                <!-- login -->
+                <a href="#" class="login">Already have an account? Login here</a>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

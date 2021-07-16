@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/shop.css">   
+</head>
+<body>
+    <!-- navbar 1 -->
+
+    <div class="navbar1">
+        <div class="menu">
+            <a href="./../register.html" class="list">Register</a>
+            <a href="./../index.html" class="list">Login </a>
+            <a href="./../aboutUs.html" class="list">About Us</a>
+        </div>
+    </div>
+
+    <!-- navbar 2 -->
+    <div class="navbar2">
+        <!-- logo -->
+        <a href="./../index.html"><img src="./../asset/logo-baru.png" alt="Logo" class="logo"></a>
+        
+        <div class="menu2">
+            <ul>
+                <li><a class="list2">&#9776;</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="./../index.html" class="sub-list" >Home</a></li>
+                            <li><a href="./../register.html" class="sub-list" >Register</a></li>
+                            
+                            <li><label for="Category" class="sub-list">Category</label>
+                                <div class="sub-menu2">
+                                    <ul>
+                                        <li><a href="men.html" class="sub-list un">Men</a></li>
+                                        <li><a href="women.html" class="sub-list un">Woman</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./../index.html" class="list2">Home</a></li>
+                <li><label for="Category" class="list2">Category</label>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="men.html" class="sub-list un" >Men</a></li>
+                            <li><a href="women.html" class="sub-list un" >Women</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="menu-shop">
+        <h1>Men's Product</h1>
+        <div class="category">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('tops')"> Tops</button>
+            <button class="btn" onclick="filterSelection('shorts')"> Shorts</button>
+            <button class="btn" onclick="filterSelection('outerwear')"> Outerwear</button>
+        </div>
+    
+
+        <div class="product-container">
+            <div class="product tops">
+                <img src="./../asset/product/men/product-1.jpg" alt="">
+                <h3>Flowy striped skirt</h3>
+                <h4>Rp. 499.000,00</h4>
+                <a href="#" class="product-text">+Add to Cart</a><br><br>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="./../asset/product/men/product-2.jpg" alt="">
+                <h3>Cotton T-Shirt</h3>
+                <h4>Rp. 499.000,00</h4>
+                <a href="#" class="product-text">+Add to Cart</a><br><br>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product shorts">
+                <img src="./../asset/product/men/product-3.jpg" alt="">
+                <h3>Slim striped pocket shirt</h3>
+                <h4>Rp. 499.000,00</h4>
+                <a href="#" class="product-text">+Add to Cart</a><br><br>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product shorts">
+                <img src="./../asset/product/men/product-4.jpg" alt="">
+                <h3>Fit micro corduroy shirt</h3>
+                <h4>Rp. 499.000,00</h4>
+                <a href="#" class="product-text">+Add to Cart</a><br><br>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product tops">
+                <div class="img-product1">
+                    <div class="label-outstock">Out of Stock</div>   
+                </div>
+                <h3>Buttons tweed blazer</h3>
+                <h4>Rp. 499.000,00</h4>
+                <a href="#" class="product-text">+Add to Cart</a><br><br>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product shorts">
+                <img src="./../asset/product/men/product-5.jpg" alt="">
+                <h3>Tropical Kimono</h3>
+                <h4>Rp. 499.000,00</h4>
+                <a href="#" class="product-text">+Add to Cart</a><br><br>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product shorts">
+                <img src="./../asset/product/men/product-6.jpg" alt="">
+                <h3>Contrasting sunglasses</h3>
+                <h4>Rp. 499.000,00</h4>
+                <a href="#" class="product-text">+Add to Cart</a><br><br>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product shorts">
+                <img src="./../asset/product/men/product-7.jpg" alt="">
+                <h3>Water resistant backpack</h3>
+                <h4>Rp. 499.000,00</h4>
+                <a href="#" class="product-text">+Add to Cart</a><br><br>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <a href="#" class="load">Load More</a>
+    </div>
+</body>
+
+<!-- Footer -->
+<footer>
+
+    <!-- Email - Information -->
+    <div class="bg-email">
+        <h2>Get notified on each updates</h2>
+        <div class="input-email">
+            <input type="text" name="email" id="text-email" placeholder="Enter Email Address" >
+            <input type="button" name="email" id="submit-email" value="SUBMIT">
+        </div>  
+    </div>
+
+    <div class="menu-footer">
+        <div class="payment">
+            <img src="./../asset/logo-baru.png" alt="logo" class="footer-logo">
+            <h4 class="footer-text">Bulan Fashion born in Asia On trend. Online. On the go. Bulan also accept any method of payment</h4>
+            <div class="img-payment">
+                <img src="./../asset/icon/payment-1.png" alt="">
+                <img src="./../asset/icon/payment-2.png" alt="">
+                <img src="./../asset/icon/payment-3.png" alt="">
+                <img src="./../asset/icon/payment-4.png" alt="">
+                <img src="./../asset/icon/payment-5.png" alt="">
+            </div>
+        </div>
+
+        <div class="sosmed">
+            <a href="https://www.facebook.com/"><img src="./../asset/sosmed/logo-sosmedw-01.png" alt="Facebook-Icon" ></a>
+            <a href="https://www.instagram.com/"><img src="./../asset/sosmed/logo-sosmedw-02.png" alt="Instagram-Icon"></a>
+            <a href="https://twitter.com/"><img src="./../asset/sosmed/logo-sosmedw-03.png" alt="Twitter-Icon"></a>
+        </div>
+        
+        <div class="info">
+            <h2>Info</h2>
+            <a href="#" class="">FAQ</a>
+            <a href="#" class="">RETURNS </a>
+            <a href="#" class="">SHIPPING</a>
+            <a href="#" class="">CONTACT</a>
+            <a href="#" class="">STORE FINDER</a>
+        </div>
+    </div>
+    
+
+    <h3>Copyright &#169; 2019 - 2020 Bulan Company All rights reserved.</h3>
+</footer>
+
+</html>
